@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://otcfragrances.co.za'),
+  metadataBase: new URL('https://otcfragrance.co.za'),
   title: { default: 'OTC Fragrances | Premium Dubai Fragrances in South Africa', template: '%s | OTC Fragrances' },
   description: 'Discover premium Dubai fragrances in South Africa. Explore Osma perfumes, curated collections and gift sets, then request your order directly from OTC Fragrances.',
   keywords: ['Dubai fragrances South Africa', 'Osma perfume South Africa', 'premium perfume', 'OTC Fragrances'],
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_ZA',
-    url: 'https://otcfragrances.co.za',
+    url: 'https://otcfragrance.co.za',
     siteName: 'OTC Fragrances',
     title: 'OTC Fragrances | Premium Dubai Fragrances in South Africa',
     description: 'Discover Osma fragrances and curated Dubai perfume collections, available by request in South Africa.',
@@ -29,7 +29,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'OTC Fragrances',
-    url: 'https://otcfragrances.co.za',
+    url: 'https://otcfragrance.co.za',
     email: 'info@otcfragrances.co.za',
     description: 'South African importer and reseller of premium fragrances sourced from Dubai.',
     areaServed: { '@type': 'Country', name: 'South Africa' },
